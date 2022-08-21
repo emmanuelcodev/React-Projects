@@ -1,0 +1,53 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #f1f5f8;
+}
+.flex-container-v{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 4rem;
+
+    align-items: center;
+}
+.menu-item{
+    color:#c59d5f;
+    font-size: 1.2rem;
+    
+    cursor: pointer;
+}
+.menu-title{
+    text-align: center;
+    color: #102a42;
+    font-size: 2.6rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    margin-top: 4.5rem;
+    
+
+
+}
+.menu-title-underline{
+    padding-bottom: 10px;
+    border-bottom: 4px solid #c59d5f;
+}
+
+
+
+.flex-container-h{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    column-gap: 3rem;
+
+}
+
+

@@ -1,0 +1,56 @@
+.tour-image{
+    height: 400px;
+    width: 100%;
+    padding-top: .8rem;
+    margin-bottom: .5rem;
+}
+
+.tour-button{
+    width: 95%;
+    height: 60px;
+    margin-bottom: 4px;
+    color: white;
+    background: red;
+    font-size: 1.4rem;
+}
+.tour-price{
+    float: right;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+
+}
+
+.tour-name{
+    font-size: 1.1rem;
+    font-weight: bold;
+    float: left;
+    color: black;
+    margin-top: 10px;
+}
+
+.tour-info{
+    line-height: 1.6rem;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+span.read-more{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+
+.content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.destination{
+   
+    margin-bottom: 2rem;
+    background-color: #f0efed;
+    box-shadow: 7px 7px 7px 1px rgba(179, 186, 180, 4);
+}
+

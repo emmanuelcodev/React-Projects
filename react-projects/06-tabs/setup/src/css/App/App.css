@@ -1,0 +1,169 @@
+body{
+    background-color: #f1f5f8;
+}
+
+/*** The new CSS Reset - version 1.2.0 (last updated 23.7.2021) ***/
+
+/* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+  all: unset;
+  display: revert;
+}
+
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+  Remove list styles (bullets/numbers)
+  in case you use it with normalize.css
+*/
+ol, ul {
+  list-style: none;
+}
+
+/* For images to not be able to exceed their container */
+img {
+  max-width: 100%;
+}
+
+/* Removes spacing between cells in tables */
+table {
+  border-collapse: collapse;
+}
+
+/* Revert the 'white-space' property for textarea elements on Safari */
+textarea {
+  white-space: revert;
+}
+
+body{
+  font-size: 1rem;
+}
+
+
+
+/* Experience Title */
+
+.exp-p{
+  color: #102a42;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.exp-erie{
+border-bottom: #2caeba 5px solid;
+padding-bottom: .5rem;
+}
+
+.side-tab{
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem; 
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+
+.side-tab > p:first-of-type {
+  color: #2caeba;
+  border-bottom: #2caeba 2px solid;
+  
+}
+
+
+
+
+.side-tab-p{
+  font-size: 1.25rem;
+  cursor: pointer;
+  
+}
+
+.side-tab-p:hover{
+  color: #2caeba;
+  border-bottom: #2caeba 2px solid;
+
+  padding-bottom: .3rem;
+}
+
+
+/* Media Queries for when screen gets larger - mobile first approach */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .all-container{
+    max-width: 1500px;
+  }
+  .app-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 7rem;
+ 
+
+
+  
+    
+  }
+  .exp-p{
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    letter-spacing: 3px;
+  }
+  .side-tab{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    column-gap: 0rem; 
+    padding-top: 0;
+    padding-bottom: 0;
+    row-gap: 2rem;
+  }
+ .side-tab-p:hover{
+  color: #2caeba;
+  border-left: #2caeba 2px solid;
+  border-bottom: none;
+  padding-bottom: 0px;
+
+}
+
+.side-tab-p{
+padding-left: 5rem;
+}
+
+
+.side-tab > p:first-of-type {
+ 
+  border-left: #2caeba 2px solid;
+  border-bottom: none;
+  
+}
+
+
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

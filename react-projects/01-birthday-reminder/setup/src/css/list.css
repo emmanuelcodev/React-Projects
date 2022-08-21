@@ -1,0 +1,58 @@
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+  height: 400px;
+}
+.btn{
+  width: 100%;
+  background-color: #808080;
+}
+
+.task{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.taskName{
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* random background color styles */
+/*
+      "#000080",
+      "#0000FF",
+      "#008080",
+      "#00FFFF",
+*/
+
+.bgcolor1{background-color:  #808080 ;}
+.bgcolor2{background-color:  #800000 ;}
+.bgcolor3{background-color:  #800080 ;}
+.bgcolor4{background-color:  #FF00FF;}
+.bgcolor5{background-color:  #FF00FF;}
+.bgcolor6{background-color:  #ff1493;}
+.bgcolor7{background-color:  #ff69b4;}
+.bgcolor8{background-color:  #ffb6c1;}
+.bgcolor9{background-color:  #ffc0cb;}
+.bgcolor10{background-color: #FFFF00;}
+.bgcolor11{background-color: #000080;}
+.bgcolor12{background-color: #dc143c;}
+.bgcolor13{background-color: #ff7f50;}
+.bgcolor14{background-color: #ff7f50;}
+.bgcolor15{background-color: #8b0000;}
+.bgcolor16{background-color: #8b0000;}
+.bgcolor17{background-color: #b22222;}
+.bgcolor18{background-color: #1e90ff;}
+.bgcolor19{background-color: #ff00ff;}
+.bgcolor20{background-color: #ffd700;}
+.bgcolor21{background-color: #20b2aa;}
+.bgcolor22{background-color: #800000;}
+.bgcolor23{background-color: #000080;}
+.bgcolor24{background-color: #ee82ee;}
+.bgcolor25{background-color: #ff6347;}
+.bgcolor26{background-color: #008080;}
+.bgcolor27{background-color: #ff6347;}

@@ -1,0 +1,28 @@
+.menu-listed{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+    width: 100%;
+    column-gap: 2rem;
+    row-gap: 3rem;
+    justify-content: space-between;
+    padding-left: 8rem;
+
+    
+    
+  
+}
+
+@media only screen and (max-width: 1200px)  {
+.menu-listed{
+
+       justify-content: center;
+        padding-left: 0rem;
+}
+}
+
+
+
+
+

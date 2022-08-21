@@ -1,0 +1,148 @@
+body{
+
+ margin:0}
+
+
+/* SlideShow Container */
+
+
+.slideshow-container{
+
+    
+
+    
+    position: relative;
+ 
+
+    max-width:1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+   
+    margin-bottom: 10px;
+
+
+}
+
+
+.my-slides{
+  
+   
+   
+   
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding-top: 4rem;
+    
+}
+
+.review-title{
+    
+    text-align: center;
+    color:  rgb(50, 77, 103);
+    font-size:2rem;
+    letter-spacing: .1rem;
+    font-weight: 550;
+    line-height: 1.25;
+        margin-top: 5rem;
+    margin-bottom: -2rem;
+}
+
+
+/* User - Slide - Image */
+.user-image-container{
+    
+    width: 150px;
+    height: 150px;    
+
+   
+    margin-left: auto;
+     margin-right: auto;
+   
+}
+.user-image{
+ width: 100%;
+ height: 100%;
+ border-radius: 50% ;
+ border:solid 4px #bcccdc;
+;
+
+}
+.user-name{
+   font-size: 1.05rem;
+   padding-top: 1.5rem;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   font-weight: bold;
+   color:#ba5d2c;
+   text-align: center;
+
+}
+.user-title{
+    text-transform: capitalize;
+    padding-top: .4rem;
+    padding-bottom: 2.5rem;
+    color: #324d67;
+    font-size: 1.05rem;
+    text-align: center;
+    letter-spacing: .05rem;
+    
+
+    
+
+}
+.user-quote{
+    color: #617d98;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    line-height: 1.5rem;
+
+}
+
+
+
+/* left- previous button and right - next button */
+
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    font-weight: bold;
+    background-color: #324d67;
+    color: white;
+    
+
+    user-select: none;
+    border-radius: 0 3px 3px 0;;
+    font-size: 1.6rem;
+    top:50%;
+    width:auto;
+    margin-top: -22px;
+    transition: .6s ease;
+    padding: .5rem;
+    
+}
+.next{
+    right: 0;
+    margin-right: 1rem;
+    border-radius: 3px 0 0 3px;
+    
+}
+.prev{
+    margin-left: 1rem;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+

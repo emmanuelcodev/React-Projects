@@ -1,0 +1,179 @@
+body{
+    color:red;
+    background-color: purple;
+    color: #102a42;
+}
+
+
+.flex-container{
+    width: 64%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    background-color: #f5f1ed;
+    align-content:stretch;
+    justify-content:space-evenly;
+    align-items: stretch;
+    margin-top: 160px;
+    padding: 20px;
+}
+
+
+.flex-questions{
+    background-color: aqua;
+    flex-grow: 7;
+    
+}
+
+.flex-title{
+background-color: #f5f1ed;
+flex-grow: 1;
+letter-spacing: 2px;
+font-size: 1.5rem;
+font-style: bold;
+font-weight: bold;
+max-width: 250px;
+}
+
+
+/*Flex for questions */
+
+.flex-container2{
+    
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: #f5f1ed;
+    align-content:stretch;
+    justify-content:space-evenly;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+.question-box{
+    border-radius: .2rem;
+    border: 1px solid #cccbca;
+    padding: 1.5rem;
+    background-color: white;
+    box-shadow: -1px 1px 4px #cccbca;
+    color: #102a42;
+}
+
+.plus-question{
+
+    display: inline;
+}
+.plus-text{
+display: inline;
+
+
+
+float: right;
+}
+
+/* Disappearing and appearing text */ /*Toggle hidden feature */
+
+.question-info{
+    font-style: none;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+
+
+
+
+/* Media Queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) {
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .flex-container{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .flex-title{
+       text-align: center;
+        font-size: 1.2rem;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .flex-container{
+    width: 95%;
+    margin-top: 40px;
+}
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .flex-container{
+    margin-top: 60px;
+    width: 90%;
+    
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    .flex-container{
+        margin-top: 80px;
+        width: 85%;  
+        flex-direction: column;
+      
+    }
+    .flex-title{
+        max-width: 500px;
+        
+        
+        
+    }
+}
+
+/* make all question answers hidden by default */
+
+
+
+/* On off toggle for plus button */
+.off{
+    visibility: hidden;
+    display: none;
+}
+.on{
+    visibility: visible;
+    display: block;
+}
+
+/* Hover affect opens up */
+
+.plus-question:hover {
+  background-color: yellow;
+}
+
+
+   
+#q1:hover > #p1{
+    visibility: visible;
+    display: block;
+}
+#q2:hover > #p2{
+    visibility: visible;
+    display: block;
+}
+#q3:hover > #p3{
+    visibility: visible;
+    display: block;
+}
+#q4:hover > #p4{
+    visibility: visible;
+    display: block;
+    }
+#q5:hover > #p5{
+    visibility: visible;
+    display: block;
+}

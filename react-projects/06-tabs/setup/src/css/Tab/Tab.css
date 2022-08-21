@@ -1,0 +1,80 @@
+/* Set up flex box */
+.tab-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  
+}
+.tab-title{
+    font-size: 1.5rem;
+    color: #102a42;
+    letter-spacing: 1px;
+    padding-top: 1rem;
+    
+}
+
+.tab-company{
+    background-color: #dae2ec;
+    color: #617d98;
+    letter-spacing: 1px;
+    margin-top: .8rem;
+    margin-bottom: .8rem;
+    display: inline;
+    padding-top: .4em;
+    padding-left: .6em;
+    padding-right: .6em;
+    padding-bottom: .4em;
+}
+.tab-dates{
+    letter-spacing: .1rem;
+    color: #617d98;
+    margin-bottom: .8rem;
+}
+.tab-duties > li{
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: #324d67;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    margin-left: 1rem;
+    padding-left: 1.5rem;
+    list-style: circle;
+}
+
+
+.tab-button {
+    color:#bff8fd;
+    background-color: #2caeba;
+    padding-top: .3rem; 
+    padding-bottom: .3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+    letter-spacing: .2em;
+    border-radius: .5rem;
+    height: 35px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    border: #102a42 0px solid;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+.tab-button:hover{
+    background-color: #52d1da;
+    color:#324d67;
+    
+}
+@media only screen and (min-width: 992px) {
+
+    .tab-container{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: auto;
+    max-width: 50%;
+    }
+
+}
