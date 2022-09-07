@@ -1,0 +1,30 @@
+.lorem-paragraphs{
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.form-level{
+    display: flex;
+    flex-direction: row;
+    column-gap: .5rem;
+}
+.p-num-label{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+.p-num-input{
+    height: 24px;
+    width: 3rem;
+}
+
+.p-num-button{
+    height: 31px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #49a6e9;
+}
+

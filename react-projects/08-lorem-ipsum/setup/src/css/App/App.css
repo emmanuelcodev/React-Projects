@@ -1,0 +1,20 @@
+body{
+    background-color: #f1f5f8;
+    
+}
+
+.lorem-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+.top-level{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #063251;
+    row-gap: 2rem;
+
+}

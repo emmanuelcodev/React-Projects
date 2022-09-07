@@ -1,0 +1,184 @@
+body{
+ 
+        background-color:#f1f5f8;
+
+    
+}
+
+/* CSS styling for form */
+.color-form{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-left: 0;
+    margin-bottom: 1.5rem;
+    background-color: #f1f5f8;
+    
+}
+
+
+.color-label{
+    color: #102a42;
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-right: 1.5rem;
+    margin-left: 2rem;
+    margin-top: 4px;
+
+
+;
+
+
+
+}
+.color-input{
+    height: 40px;
+    border: 0px black solid;
+    border-radius: .1rem;
+    background-color: white;
+    width: 14rem;
+    font-size: 1.3rem;
+    padding-left: 1rem;
+   
+}
+
+.color-button{
+    height: 40px;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    font-size: 1.3rem;
+    background-color: #49a6e9;;
+    margin-bottom: 0;
+    border-radius: .1rem;
+    border: 0px black solid;
+    color: white;
+    margin-top: 1px;
+    cursor: pointer;
+    
+}
+
+
+.color-page{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 100%;
+    
+}
+
+/* Color Paller Box */
+.color-box{
+    
+
+    border: 0px black solid ;
+    min-height: 300px;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+    flex-basis:24.6%;
+    margin-left: 0;
+    margin-right: 0;
+
+    
+}
+
+.color-pallet{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+    justify-content: flex-start;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+ 
+}
+.color-box-p{
+    font-size: 1.05rem;
+    padding-left: 1.8rem;
+    padding-top: 1.2rem;
+    
+}
+
+.color-white{
+    color: white;
+}
+
+.copy-p{
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    padding-left: 1.8rem;
+    padding-top: 1rem;
+    
+}
+
+
+
+/* Media Queries */
+
+
+/* Boxes want to make more boxes appear as screen gets bigger*/
+
+
+@media only screen and (max-width: 600px) {
+    .color-box{
+        flex-basis:49.5%;
+    }
+
+.color-label{
+    font-size: 1.2rem;
+    padding-top: .3rem;
+}
+.color-input{
+    height: 35px;
+
+    width: 10rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+   
+}
+
+.color-button{
+    height: 35px;
+
+    font-size: 1rem;
+
+    
+}
+
+
+    
+}
+@media only screen and (min-width: 600px) {
+    .color-box{
+        flex-basis:33%;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) {
+    .color-box{
+        flex-basis:24.7%;
+    }
+    
+}
+@media only screen and (min-width: 992px) {
+    .color-box{
+        flex-basis:14.1%;
+    }
+    
+}
+@media only screen and (min-width: 1200px) {
+    .color-box{
+        flex-basis:9.8%;
+    }
+    
+}
