@@ -1,0 +1,154 @@
+.grocery-container{
+    background-color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+    padding-bottom: 2rem;
+    border-radius: .5rem;
+}
+
+
+.grocery-title{
+    color: #063251;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sub-button{
+    background-color: #a5d5f8;
+    cursor: pointer;
+    height: 26px;
+    padding: 5px 10px 10px 10px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    border: 0px solid black;
+    margin-bottom: 1px;
+    border-radius: .2rem;
+}
+
+.sub-button:hover{
+    background-color: #49a6e9;
+    color: white;
+}
+
+
+.grocery-name-input{
+    height: 25px;
+    border: 0px solid black;
+    background-color: #f1f5f8;
+    border-radius: .2rem;
+    padding-left: 5px;
+    
+    
+}
+.grocery-price-input{
+    height: 25px;
+    border: 0px solid black;
+    border-radius: .2rem;
+    
+    background-color: #f1f5f8;;
+    margin-left: 2px;
+    
+}
+
+.div-in-first-form{
+    margin-bottom: 1rem;
+}
+
+/* display of items  in flex box row*/
+
+.grocery-item-display{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*style menu items data name and price */
+.grocery-data-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 9.4rem;
+    align-items: flex-end;
+   
+   
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+   
+    
+}
+.grocery-data-div > p{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 1.2rem;
+}
+
+.grocery-data-name {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+.grocery-data-price{
+    padding-right: 2rem;
+}
+
+/*Style Icons */
+
+.icon-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.edit-icon{
+ 
+color: aquamarine;
+margin-right: 5px;
+cursor: pointer;
+}
+
+
+.trash-icon{
+    
+    color: red;
+    cursor: pointer;
+}
+
+
+/* style total cost data */
+.total-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    
+    width: 82%;
+    border-top: 2px solid black;
+    margin-top: 1rem;
+
+    
+
+}
+
+.total-div > p{
+    margin-top: 0;
+    padding-top: 1rem;
+    margin-bottom: 0px;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+    
+}
+
+/* style clear button */
+.clear-text-button{
+    color: red;
+    text-align: center;
+    font-size: .7rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: lighter;
+    opacity: .8;
+
+}
