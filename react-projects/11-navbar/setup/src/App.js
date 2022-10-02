@@ -1,9 +1,11 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Navbar from './Components/NavBar/NavBar'
+import './CSS/NavBar/NavBar.css'
 function App() {
   return (
     <>
-      <h2>navbar project setup</h2>
+     
+      <Navbar />
     </>
   )
 }

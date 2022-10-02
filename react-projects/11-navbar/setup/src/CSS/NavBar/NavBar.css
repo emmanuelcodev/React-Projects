@@ -1,0 +1,211 @@
+body{
+    background-color: #f1f5f8;;
+}
+
+:root{
+    --transition: all .3s linear;
+}
+
+.nav-bar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+ 
+    padding-top: 0px;
+    background-color: white;
+    border-bottom: 1px solid #f5f5f5 ;
+   
+    box-shadow:  0px 3px 15px rgba(0,0,0,0.1);;
+    margin-top: -1rem ;
+}
+
+.logo-div{
+    font-size: 1.7rem;
+    letter-spacing: 4px;
+    text-shadow: 1px 3px 4px #828181;
+
+    
+}
+
+
+
+.coding-span{
+    
+
+}
+
+.addict-span{
+    color: #49a6e9;
+}
+
+/* Style Menu - Middle and Icon links */
+
+.nav-links-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: .8rem;
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+.nav-links-div > a{
+    text-decoration: none;
+    color: #324d67;
+}
+.nav-links-div > a:hover{
+    color: #49a6e9;
+}
+
+
+
+.icons-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 1rem;
+    cursor: pointer;
+}
+
+.icons-div > a{
+    color: #49a6e9;
+
+}
+
+.icons-div > a:hover{
+    opacity: .5;
+
+    
+}
+
+
+
+/* Toggle css */
+.toggle-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+   
+    font-size: 1.5rem;
+    color: #49a6e9;
+
+}
+
+/*Mobile menu */
+
+.mobile-nav-menu{
+    display: flex;
+    flex-direction: column;
+    
+    list-style: none;
+    text-transform: none;
+
+  
+    
+}
+.mobile-nav-menu > a {
+    text-decoration: none;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+
+}
+
+.mobile-nav-menu > a:hover{
+    background-color: #8bcbf9;;
+    padding: .5rem;
+    transition: var(--transition);
+}
+
+
+
+.fbar:hover{
+    transform: rotate(90deg);
+    cursor: pointer;
+    transition: var(--transition);
+}
+/*
+Media Queries: 
+If its 800px and above make toggle dissapear and make full menu and social icons appear
+if its 800 px and less make toggle appear and all social media and full menu disapear.
+Make toggle button work
+*/
+
+
+
+
+
+
+
+@media only screen and (max-width: 799px) {
+    /* … */
+    .hide-element{
+        display: none;
+    }
+    .toggle-div{
+        display: flex;
+        flex-basis: 48%;
+    }
+    .nav-bar-container{
+        flex-wrap: wrap;
+    }
+
+
+    .logo-div{
+        flex-basis: 48%;
+    }
+
+    .mobile-nav-menu{
+
+        flex-basis: 100%;
+        justify-content: start;
+        padding-left: 0;   
+        display: flex; 
+        transition: var(--transition);
+       
+    }
+
+
+    .mobile-nav-menu > a > li {
+        font-size: 1.3rem;
+        color: #324d67;;
+        padding-right: 10rem;
+        cursor: pointer;
+      
+       
+    }
+    .mobile-nav-men-div{
+        width: 100%;
+        transition: var(--transition);
+      
+        overflow: hidden;
+    }
+    
+
+  }
+
+
+  @media only screen and (min-width: 800px){
+    
+     /* … */
+     .hide-element{
+        display: flex;
+    }
+    .toggle-div{
+        display: none;
+       
+    }
+    .nav-bar-container{
+        justify-content: space-around;
+    }
+    .mobile-nav-menu{
+        display: none;
+        
+    }
+  }
+
+  
+  

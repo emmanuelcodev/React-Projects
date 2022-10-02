@@ -14,8 +14,10 @@ const Navbar = () => {
     const linksHeight = linksRef.current.getBoundingClientRect().height;
     if (showLinks) {
       linksContainerRef.current.style.height = `${linksHeight}px`;
+      linksRef.current.style.display = "flex";
     } else {
       linksContainerRef.current.style.height = '0px';
+      linksRef.current.style.display = "none";
     }
   }, [showLinks]);
   return (
